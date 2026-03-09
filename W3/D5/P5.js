@@ -2,7 +2,7 @@ const startBtn = document.getElementById("startBtn");
 const removeBtn = document.getElementById("removeBtn");
 
 function handleClick(){
-    console.log("StartBtn clicked");
+    console.log("StartBtn clicked.");
 }
 startBtn.addEventListener("click",handleClick);
 
