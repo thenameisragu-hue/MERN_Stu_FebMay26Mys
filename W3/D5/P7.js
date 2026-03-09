@@ -3,7 +3,7 @@ const inner = document.getElementById("inner");
 const innerButton = document.getElementById("innerButton");
 
 outer.addEventListener("click",function(){
-    console.log("Outer div clicked");
+    console.log("Outer div clicked.");
 });
 
 inner.addEventListener("click",function(){
