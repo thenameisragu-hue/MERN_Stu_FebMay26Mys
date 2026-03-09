@@ -7,7 +7,7 @@ console.log("price with tax",pricewithGST);
 // Using map to extract files
 let users = [
     {name:"Appu", age:48},
-    {name:"Hruthik", age:21}
+    {name:"Raghu", age:21}
 ];
 // to take individual object
 let names = users.map(user => user.name);
