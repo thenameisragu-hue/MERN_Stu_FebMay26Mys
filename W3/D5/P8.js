@@ -17,5 +17,5 @@ addTask.addEventListener("click",function(){
     const li=document.createElement("li");
     li.innerHTML = "Task" + taskCount + '<button class="deleteBtn">Delete</button>';
     tasklist.appendChild(li);
-    console.log("New task created.");
+    console.log("New task created..");
 });
