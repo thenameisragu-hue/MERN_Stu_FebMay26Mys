@@ -7,7 +7,7 @@ outer.addEventListener("click",function(){
 });
 
 inner.addEventListener("click",function(){
-    console.log("Inner div clicked");
+    console.log("Inner div  clicked");
 });
 
 innerButton.addEventListener("click",function(event){
