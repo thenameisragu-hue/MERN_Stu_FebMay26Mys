@@ -7,7 +7,7 @@ try{
 }
 catch(err){
     console.log("Error caught",err.name,"-",err.message);
-    err1.innerHTML = "Trying to access undefined variable";
+    err1.innerHTML = "Trying  to access undefined variable";
 }
 console.log("Program execution continues");
 
