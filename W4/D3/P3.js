@@ -26,7 +26,7 @@ document.getElementById("removebtn").addEventListener("click",function(){
 });
 document.getElementById("clearbtn").addEventListener("click",function(){
     sessionStorage.clear();    
-    output.textContent = "Removed  All ";
+    output.textContent = "Removed All ";
     output.style.color="red";
     
 });
