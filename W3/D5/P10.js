@@ -27,7 +27,7 @@ runmouseover.addEventListener("click",function () {
 });
 
 hoverbox.addEventListener("mouseover",function(){
-    console.log("Progamatically trigeering Mouse hover");
+    console.log("Progamatically  trigeering Mouse hover");
 });
 
 runkeydown.addEventListener("click",function(){
