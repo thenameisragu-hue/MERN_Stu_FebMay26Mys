@@ -40,6 +40,7 @@ livepassword.addEventListener("input",function(){
         return;
     }
 
+
     //special character
     if(!/[@#$%^&*]/.test(password)){
         message.textContent="Password must be atleast 1 Special character";
