@@ -1,6 +1,6 @@
 //CreateElement() & appendChild()
 
-const list=document.getElementById("list")
+const  list=document.getElementById("list")
 let counter =1;
 //addding new lists
 document.getElementById("addBtn").addEventListener("click",function(){
