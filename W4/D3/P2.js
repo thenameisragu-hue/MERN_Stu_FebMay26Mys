@@ -7,7 +7,7 @@ savebtn.addEventListener("click",function(){
     localStorage.setItem("Username","Ben");
     localStorage.setItem("loggedIn","true");
     console.log("Saved Theme",themeinput.value);
-    output.textContent = "Data Saved Succesfully in Local Storage";
+    output.textContent = "Data  Saved Succesfully in Local Storage";
     output.style.color="green";
 });
 
