@@ -1,7 +1,7 @@
 const form = document.getElementById("form");
 const pass1 = document.getElementById("pass1");
 const pass2 = document.getElementById("pass2");
-const message = document.getElementById("message");
+const  message = document.getElementById("message");
 
 
 form.addEventListener("input", function () 
