@@ -20,4 +20,5 @@ document.getElementById("resetbtn").addEventListener("click",function(){
 const box= document.getElementById("box");
 document.getElementById("innerHTMLbtn").addEventListener("click",function(){
     box.innerHTML = "<strong>Original</strong> Content";
+    
 });
