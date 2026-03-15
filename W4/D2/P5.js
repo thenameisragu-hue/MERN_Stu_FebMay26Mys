@@ -70,6 +70,7 @@ signupform.addEventListener("submit",function(event){
     message.style.color="green";
     console.log("success!",{email,password:"**hidden**"});
 });
+
 //clear error messages while entering values
 signupemail.addEventListener("input", ()=>message.textContent="");
 signuppassword.addEventListener("input", ()=>message.textContent="");
