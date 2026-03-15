@@ -9,7 +9,7 @@ document.addEventListener("click", function () {
         return response.text();
     })
     .then(function (text) {
-        console.log("Raw response object: ", text);
+        console.log("Raw  response object: ", text);
         output.innerText =text;
         // output.textContent = "Status : " + text.status + "\nOk : " + text.ok ;
     })
