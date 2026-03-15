@@ -20,6 +20,6 @@ document.getElementById("readbtn").addEventListener("click",function(){
     jsonoutput.textContent="user object read "+up;
     }
     catch(error){
-        jsonoutput.textContent="JSON Parsing Failed";
+        jsonoutput.textContent="JS)N Parsing Failed";
     }
 });
