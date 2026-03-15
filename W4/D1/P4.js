@@ -4,8 +4,8 @@ console.warn("warning message");
 console.error("Error Message");
 
 let users = [
-  { id: 1, name: "Amit" },
-  { id: 2, name: "Amith" }
+  { id:  1, name: "Amit" },
+  { id:  2, name: "Amith" }
 ];
 
 
