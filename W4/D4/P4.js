@@ -8,7 +8,7 @@ function explain(code){//Getting users location
 }
 document.getElementById("locatebtn").addEventListener("click",function () {
     if(!navigator.geolocation){
-        out.textContent="Geolocation is not supported in this browser";
+        out.textContent="Geolocation is not Supported in this browser";
     }
     out.textContent="Requesting current location...";
     navigator.geolocation.getCurrentPosition(
