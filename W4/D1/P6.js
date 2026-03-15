@@ -31,7 +31,7 @@ function Example1() {
         }
     }
     catch(e){
-        console.log("Example 1 outer catch",e.message);
+        console.log("Example  1 outer catch",e.message);
     }
 }
 console.log("example 1 result", Example1());

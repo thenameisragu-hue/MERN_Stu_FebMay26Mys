@@ -16,7 +16,7 @@ catch(err){
 
 function checkage(age){
     if(age<18){
-        throw new Error("Age must  be more than 18");
+        throw new Error("Age must be more than 18");
         
     }
     console.log("You can vote");
