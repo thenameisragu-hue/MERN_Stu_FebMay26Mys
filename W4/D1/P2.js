@@ -7,7 +7,7 @@ function parseConfig(text){
         return config;
     }
     catch(err){
-        console.log("Error Parsing configuration:",err.message,err.name);
+        console.log("Error  Parsing configuration:",err.message,err.name);
         return null;
     }
     finally{
