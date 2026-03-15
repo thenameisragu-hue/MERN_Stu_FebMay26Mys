@@ -25,7 +25,7 @@ asyncfetchbtn.addEventListener("click",
        
         //await waits until a response recieves
         output.textContent="Fetching Post...";
-        const response = await fetch("https://jsonplaceholder.typicode.com/posts/"+numericid);
+        const response = await  fetch("https://jsonplaceholder.typicode.com/posts/"+numericid);
         if (!response.ok) 
             throw new Error("HTTP error : " + response.status);
             const data=await response.json();
