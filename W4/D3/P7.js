@@ -7,7 +7,7 @@ function fetchpost(url){
     fetch(url)
     .then(function(response){
         if (!response.ok) {
-            throw new Error("HTTP error status code"+response.status);            
+            throw new Error("HTTP error Status code"+response.status);            
         }
         return response.json();
     })
