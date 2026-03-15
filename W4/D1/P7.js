@@ -32,7 +32,7 @@ run.addEventListener("click", function () {
 });
 
 //Query Selector all returns all elements matching
-const tasks =document.querySelectorAll(".task");
+const  tasks =document.querySelectorAll(".task");
 tasks.forEach(function(task){
     task.style.color="purple";
 
