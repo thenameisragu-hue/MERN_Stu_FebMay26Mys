@@ -11,7 +11,7 @@ detectbtn.addEventListener("click",function(){
         usd:new Intl.NumberFormat(locale,{style:"currency",currency:"USD"}).format(amount),
         number:new Intl.NumberFormat(locale).format(amount),
         inr:new Intl.NumberFormat(locale,{style:"currency",currency:"INR"}).format(amount),
-        dateTime:new Intl.DateTimeFormat(locale,{dateStyle:"full",timeStyle:"short"}).format(now),
+        dateTime:new Intl.DateTimeFormat(locale,{dateStyle:"full",timeStyle:"Short"}).format(now),
     };
     console.log(data);
     out.textContent=JSON.stringify(data,null,2);
