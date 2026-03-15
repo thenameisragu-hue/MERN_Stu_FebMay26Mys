@@ -10,7 +10,7 @@ inspectbtn.addEventListener("click",function(){
     console.log("Name ",nameinput.value);
     console.log("Email ",emailinput.value);
 
-    const selectedGender = document.querySelector('input[name="gender"]:checked');
+    const  selectedGender = document.querySelector('input[name="gender"]:checked');
     console.log("Gender :", selectedGender ? selectedGender.value : "Not selected");
 
 
