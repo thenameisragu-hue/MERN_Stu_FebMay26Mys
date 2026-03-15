@@ -4,7 +4,7 @@ const inspection = document.getElementById("inspectBtn");
 inspectBtn.addEventListener("click",
     function(){
         const info = {
-            htmlLang : document.documentElement.lang,
+            htmllang : document.documentElement.lang,
             charset : document.characterSet,
             //browser's primary preffered language
             browserLanguage : navigator.language,
