@@ -1,0 +1,18 @@
+// Asynchronous approach of Node.js
+
+console.log("step 1: Script started.");
+
+setTimeout(() => {
+
+},1000);
+
+
+setTimeout(function () {
+    console.log("Step 3: Delayed callback finished. F1.");
+},10000);
+
+setTimeout(function () {
+    console.log("Step 3: Delayed callback finished. F2.");
+},3000);
+
+console.log("step 2: Script did not stop while waiting.");
