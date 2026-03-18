@@ -49,7 +49,7 @@
     </div>
     <div class="bg-red-100 border-l-4 border-red-500 p-3 mt-6 rounded">
       <p class="leading-relaxed text-red-700">
-        Scheduled maintenance tonight may briefly affect dashboard updates.
+        Scheduled maintenance tonight  may briefly affect dashboard updates.
       </p>
     </div>
   </div>
