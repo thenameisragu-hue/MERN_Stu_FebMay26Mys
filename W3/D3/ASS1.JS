@@ -8,7 +8,7 @@ else if(password.length<=8 && Password.hasstring)
     {
       console.log("Medium");
 }
-else(password.length>=10 && password.hasstring)
+else if(password.length>=10 && password.hasstring)
 {
     console.log("Strength");
 }
