@@ -24,7 +24,7 @@
     
     <div class="bg-yellow-100 border-l-4 border-yellow-500 p-4 rounded mb-4">
       <h3 class="text-lg font-bold mb-1">Maintenance notice</h3>
-      <p class="relative">The sytstem will undergo Maintenance tonight. Some feacture may be temporarily unavialable.</p>
+      <p class="relative">The sytstem  will undergo Maintenance tonight. Some feacture may be temporarily unavialable.</p>
     </div>
     
     <div class="flex space-x-6">
