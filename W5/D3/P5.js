@@ -1,0 +1,1 @@
+// An async function always returns a promise

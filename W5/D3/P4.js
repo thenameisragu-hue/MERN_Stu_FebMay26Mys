@@ -10,7 +10,7 @@ function getOrderId(){
 
 function getOrderDetails(orderId){
     return new Promise(function(resolve){
-        setTimeout(function(resolve){
+        setTimeout(function(){
             resolve({id:orderId,
             product:"Laptop",
             quatity:2
@@ -27,3 +27,5 @@ async function showOrederSummary(){
     console.log("Product: ",OrderDetails.product);
     console.log("Quatity: ",OrderDetails.quatity);
 }
+
+showOrederSummary();
